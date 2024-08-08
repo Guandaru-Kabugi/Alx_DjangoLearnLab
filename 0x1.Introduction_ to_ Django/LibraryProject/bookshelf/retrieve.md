@@ -1,6 +1,6 @@
 from bookshelf.models import Book
 
-Book.objects.all()
+Book.objects.get(title= "1984")
 
 output
-<QuerySet [<Book: Title: Nineteen Eighty-Four Author: George Orwell Publication Year: 1949>]>
+<QuerySet [<Book: Title: 1984: George Orwell Publication Year: 1949>]>
